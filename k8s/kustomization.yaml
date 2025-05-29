@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - deployment.yaml
+  - service.yaml
+images:
+  - name: devops-tutorial
+    newName: gabriel04alves/devops-tutorial
+    newTag: 7c5c50c2f6c43e96806baddc6578d0d56d95e7a9af685c07c10a2f61039ca716
