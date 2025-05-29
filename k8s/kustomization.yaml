@@ -6,4 +6,4 @@ resources:
 images:
 - name: devops-tutorial
   newName: gabriel04alves/devops-tutorial
-  newTag: defbfb596c740f61230e5d06c6a66b09dbb2c4e1
+  newTag: b7ee49ed8757b1e18660ac18e76ac368c9d61291
