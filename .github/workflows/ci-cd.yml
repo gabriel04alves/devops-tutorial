@@ -38,7 +38,7 @@ jobs:
       - name: Update kustomization.yaml
         run: |
           cd k8s
-          kustomize edit set image hello-fastapi=gabriel04alves/devops-tutorial:$GITHUB_SHA
+          kustomize edit set image devops-tutorial=gabriel04alves/devops-tutorial:$GITHUB_SHA
 
       - name: Commit changes
         run: |
