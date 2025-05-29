@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-tutorial
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: devops-tutorial
+  template:
+    metadata:
+      labels:
+        app: devops-tutorial
+    spec:
+      containers:
+        - name: devops-tutorial
+          image: gabriel04alves/devops-tutorial
+          ports:
+            - containerPort: 8000

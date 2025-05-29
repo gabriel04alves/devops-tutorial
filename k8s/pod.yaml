@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: devops-tutorial
+spec:
+  containers:
+    - name: devops-tutorial
+      image: gabriel04alves/devops-tutorial
+      ports:
+        - containerPort: 8000
